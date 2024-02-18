@@ -60,6 +60,8 @@ Dan ini adalah tampilan Repository github saya setelah ditambahkan file-file dar
 
 ![Add Branch](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/2-1.png)
 
-Untu menyelesaikan no 2 saya membuat 3 branch baru yaitu **development**, **featureA**, dan **featureB** untuk **master** sudah saya buat di awal-awal sebagai main branch. Disini saya menggunakan perintah _git branch nama-branch_ dan untuk melihat branch apa saja yang saya miliki menggunakan perintah _git branch_ dan nama branch yang ditandai `*` adalah branch tempat kita berada atau dapat juga dilihat jika kita menggunakan git bash.
+Untu menyelesaikan no 2 saya membuat 3 branch baru yaitu **development**, **featureA**, dan **featureB**. Untuk branch **master** sudah saya buat di awal-awal sebagai main branch. Disini saya menggunakan perintah _git branch nama-branch_ dan untuk melihat branch apa saja yang saya miliki menggunakan perintah _git branch_ dan nama branch yang ditandai `*` adalah branch tempat kita berada atau dapat juga dilihat jika kita menggunakan git bash atau extendsion git graph.
 
 </br>
+
+## NO 3
