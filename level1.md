@@ -266,7 +266,7 @@ Saya memutuskan untuk mengerjakan pada branch **featureA** dan menambahkan _text
 
 ![conflict](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/4-2.png)
 
-Setelah itu saya kembali ke branch **development** lalu melakukan merge dengan branch **featureA** untuk mengambil penambahan _text-shadow_. Disinilah terjadi conflict seperti yang digambar dimana saya lupa bahwa warna `h3` sudah berubah menjadi putih di branch **development** hasil dari merge dengan branch **featureB** sebelumnya. Untuk menangani conflict ini saya memilih **Accept Incoming Change** dimana dia akan mengambil perubahan dengan merge terakhir(featureA).
+Setelah itu saya kembali ke branch **development** lalu melakukan merge dengan branch **featureA** untuk mengambil penambahan _text-shadow_. Disinilah terjadi conflict seperti yang digambar dimana saya lupa bahwa warna `h3` sudah berubah menjadi putih di branch **development** hasil dari merge dengan branch **featureB** sebelumnya. Untuk menangani conflict ini saya memilih **Accept Incoming Change** dimana dia akan mengambil perubahan pada merge terakhir(featureA).
 
 </br>
 
