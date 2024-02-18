@@ -108,7 +108,7 @@ Di branch **featureA** saya menambahkan file `style.css` lalu melakukan _add_, _
 
 ![cange featureA](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/3-8.png)
 
-ini adalah perubahan yang saya lakukan di `index.html` pada branch **featureA**.
+Ini adalah perubahan yang saya lakukan di `index.html` pada branch **featureA**.
 
 </br>
 
@@ -120,7 +120,7 @@ Untuk setiap setiap perubahan yang saya lakukan saya berikan _commit_ masing-mas
 
 ![featureB](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/3-10.png)
 
-Disini saya berpindah lagi ke branch **fetureB**, lalu agar bisa melanjut fitur-fitur yang mau saya tambahkan saya melakukan _pull origin featureA_. Jadi disini branch _featureB_ isinya sudah sama dengan branch _featureB_.
+Disini saya berpindah lagi ke branch **fetureB**, lalu agar bisa melanjut fitur-fitur yang mau saya tambahkan saya melakukan _pull origin featureA_. Jadi disini branch **featureB** isinya sudah sama dengan branch **featureB**.
 
 </br>
 
@@ -252,4 +252,56 @@ Seperti biasa saya melakukan merge dengan _git merge --no-ff nama-branch_ dan bi
 
 </br>
 
-# NO 4
+## NO 4
+
+Setelah melihat-lihat hasil dari web saya saya memutuskan untuk menambahkan shadow pada tulisan "Welcome back!".
+
+</br>
+
+![text shadow](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/4-1.png)
+
+Saya memutuskan untuk mengerjakan pada branch **featureA** dan menambahkan _text-shadow_ pada `h3`, kemudian penambahan tersebut saya _commit_.
+
+</br>
+
+![conflict](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/4-2.png)
+
+Setelah itu saya kembali ke branch **development** lalu melakukan merge dengan branch **featureA** untuk mengambil penambahan _text-shadow_. Disinilah terjadi conflict seperti yang digambar dimana saya lupa bahwa warna `h3` sudah berubah menjadi putih di branch **development** hasil dari merge dengan branch **featureB** sebelumnya. Untuk menangani conflict ini saya memilih **Accept Incoming Change** dimana dia akan mengambil perubahan dengan merge terakhir(featureA).
+
+</br>
+
+![solve conflict](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/4-3.png)
+
+Hasilnya adalah `h3` dengan color hitam dan penambahan _text-shadow_ karena, saya berpikir bahwa warna masi bisa diganti lagi di branch **development** sebelum di merge ke branch **master**.
+
+</br>
+
+## NO 5
+
+![Back to master](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/5-1.png)
+
+Kembali ke branch **master** yang isinya masih benar-benar sama dengan diawal belum ada perubahan atau penambahan. Karena, web yang saya kerjakan sudah selesai(di branch development) maka, saya harus merge ke branch **master**.
+
+</br>
+
+![merge no ff](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/5-2.png)
+
+Disini saya menggunakan _git merge --no-ff development_ untuk menggabungkan branch **master** dengan branch **development** dan hasilnya semua yang saya kerjakan tadi sudah ada di branch **master**.
+
+</br>
+
+![forgot color](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/5-3.png)
+
+Setelah saya melihat-lihat lagi hasilnya, ternyata di `style.css` warna dari `h3` belum diganti menjadi putih saat di branch **developmnet**. Jadi, saya memutuskan untuk merubahnya langsung di master dan melakukan _commit_ lalu _push_ ke remote repository di github.
+
+</br>
+
+## Kondisi akhir
+
+- **Git Graph**
+
+  ![git graph end](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/5-4.png)
+
+- **Github**
+
+  ![github end](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/5-5.png)
