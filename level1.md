@@ -70,15 +70,15 @@ Untuk menyelesaikan no 2 saya membuat 3 branch baru yaitu **development**, **fea
 
 Pertama-tama saya pindah ke branch **developmnet** menggunakan perintah _git checkout development_. Setelah itu saya menambahkan bootstrap pada `index.html` dan saya commit dengan _git commit -am "feat: add bootstarp"_.
 
-> disini saya langsung _commit_ saja namun, meggunakan `-am` yang otomatis sudah melakukan _add_. Ini saya gunakan untuk perubahan dalam suatu file saja tanpa menambahkan file lain.
+> disini saya memang langsung melakukan _commit_ saja tetapi, meggunakan `-am` yang otomatis sudah melakukan _add_. Ini saya gunakan untuk perubahan dalam suatu file saja tanpa menambahkan file lain.
 
 </br>
 
 ![git stash](https://github.com/Lidan4315/laporan-penugasan/blob/main/img/3-4.png)
 
-Untuk melihat perubahan yang sudah saya buat di branch **development** terhadap branch **master** disini saya menggunakan perintah _git diff master_ saat berada di branch **development**, lalu setelah yakin saya melakukan push ke remote repository menggunakan perintah _git push -u origin development_ (tidak terlihat digambar).
-
 > text yang berwarna hijau itu adalah perubahan yang saya lakukan
+
+Untuk melihat perubahan yang sudah saya buat di branch **development** terhadap branch **master** disini saya menggunakan perintah _git diff master_ saat berada di branch **development**, lalu setelah yakin saya melakukan push ke remote repository menggunakan perintah _git push -u origin development_ (tidak terlihat digambar).
 
 </br>
 
